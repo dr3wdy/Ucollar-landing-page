@@ -62,16 +62,20 @@
 
     <!-- Mailchimp Signup Form -->
     <form action="https://ucollar.us14.list-manage.com/subscribe/post?u=27f535e36fae07bd8ee27a007&amp;id=c267568393&amp;f_id=00b4c2e1f0" 
-          method="post" target="_blank" class="d-flex justify-content-center">
-      <input type="email" name="EMAIL" class="form-control me-2" placeholder="Enter your email" required>
-      <button type="submit" name="subscribe" class="btn btn-light fw-bold">Notify Me</button>
-      <!-- Hidden spam trap -->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          method="POST" onsubmit="window.location='thankyou.html';">
+      <div class="d-flex justify-content-center">
+        <input type="email" name="EMAIL" class="form-control me-2" placeholder="Enter your email" required>
+        <button type="submit" name="subscribe" class="btn btn-light fw-bold">Notify Me</button>
+      </div>
+
+      <!-- Hidden spam trap (leave in to prevent bots) -->
+      <div style="position:absolute; left:-5000px;" aria-hidden="true">
         <input type="text" name="b_27f535e36fae07bd8ee27a007_c267568393" tabindex="-1" value="">
       </div>
     </form>
   </div>
 </section>
+
 
 <!-- About Section -->
 <section id="about" class="py-5 bg-white text-center">
